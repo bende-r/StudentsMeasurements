@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="WhiteSmoke"
+             x:Class="Students.Add.AddStudent.AddStudentPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10" Orientation="Vertical" Spacing="10">
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Имя</Label>
+                        <Entry Placeholder="Имя" Text="{Binding NewName}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Фамилия</Label>
+                        <Entry Placeholder="Фамилия" Text="{Binding NewSurname}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Пол</Label>
+                        <Picker TextColor="Black" SelectedItem="{Binding NewGender}" SelectedIndexChanged="OnGenderPickerSelectedIndexChanged">
+                            <Picker.Items>
+                                <x:String>Муж</x:String>
+                                <x:String>Жен</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <Button Text="Назад" Clicked="BackButton_Clicked" />
+                    <Button Text="Добавить" Clicked="AddButton_Clicked" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

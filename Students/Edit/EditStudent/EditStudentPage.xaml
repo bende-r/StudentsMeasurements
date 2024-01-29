@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="WhiteSmoke"
+             x:Class="Students.Edit.EditStudent.EditStudentPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Students}" HasUnevenRows="True" SelectedItem="{Binding SelectedStudent, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame HasShadow="True" Margin="10" Padding="10" CornerRadius="5" BackgroundColor="#E0E0E0">
+                                <StackLayout Padding="10" Orientation="Vertical" Spacing="10">
+                                    <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                                        <StackLayout Orientation="Vertical">
+                                            <Label TextColor="Black">Имя</Label>
+                                            <Entry Text="{Binding Name}" TextColor="Black" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Vertical">
+                                            <Label TextColor="Black">Фамилия</Label>
+                                            <Entry Text="{Binding Surname}" TextColor="Black" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Назад" Clicked="BackButton_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

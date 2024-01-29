@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="WhiteSmoke"
+             x:Class="Students.Add.AddMeasurements.AddMeasurementPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10" Orientation="Vertical" Spacing="10">
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">АД ДО</Label>
+                        <Entry Placeholder="АД ДО" Text="{Binding NewBloodPressureBefore}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">АД ПОСЛЕ</Label>
+                        <Entry Placeholder="АД ПОСЛЕ" Text="{Binding NewBloodPressureAfter}" TextColor="Black" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">ЧСС ДО</Label>
+                        <Entry Placeholder="ЧСС ДО" Text="{Binding NewHeartRateBefore}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">ЧСС ПОСЛЕ</Label>
+                        <Entry Placeholder="ЧСС ПОСЛЕ" Text="{Binding NewHeartRateAfter}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Время востановления ритма мин</Label>
+                        <Picker TextColor="Black" SelectedItem="{Binding NewHeartRateMin}" SelectedIndexChanged="OnRatePickerSelectedIndexChanged">
+                            <Picker.Items>
+                                <x:String>Меньше минуты</x:String>
+                                <x:String>1-1.5 минуты</x:String>
+                                <x:String>1.5-2 минуты</x:String>
+                                <x:String>2-3 минуты</x:String>
+                                <x:String>Больше 3 минут</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Рост</Label>
+                        <Entry Placeholder="Рост" Text="{Binding NewHeight}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Вес</Label>
+                        <Entry Placeholder="Вес" Text="{Binding NewWeight}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Сила руки кг</Label>
+                        <Entry Text="{Binding NewHand}" TextColor="Black" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="Black">Объём лёгких мл</Label>
+                        <Entry Text="{Binding NewLungCapacity}" TextColor="Black" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                    <Button Text="Назад" Clicked="BackButton_Clicked" />
+                    <Button Text="Добавить" Clicked="AddButton_Clicked" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

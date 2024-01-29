@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net7.0-android33.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Students
+build_property.ProjectDir = D:\Labs\3 course\6 sem\Students\Students\Students\
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Add/AddGroup/AddGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Add.AddGroup.AddGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Add\AddGroup\AddGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Add\AddGroup\AddGroupPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Add/AddMeasurements/AddMeasurementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Add.AddMeasurements.AddMeasurementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Add\AddMeasurements\AddMeasurementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Add\AddMeasurements\AddMeasurementPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Add/AddStudent/AddStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Add.AddStudent.AddStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Add\AddStudent\AddStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Add\AddStudent\AddStudentPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Delete/DeleteGroup/DeleteGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Delete.DeleteGroup.DeleteGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Delete\DeleteGroup\DeleteGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Delete\DeleteGroup\DeleteGroupPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Delete/DeleteMeasurements/DeleteMeasurementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Delete.DeleteMeasurements.DeleteMeasurementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Delete\DeleteMeasurements\DeleteMeasurementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Delete\DeleteMeasurements\DeleteMeasurementPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Delete/DeleteStudent/DeleteStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Delete.DeleteStudent.DeleteStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Delete\DeleteStudent\DeleteStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Delete\DeleteStudent\DeleteStudentPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Edit/EditGroup/EditGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Edit.EditGroup.EditGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Edit\EditGroup\EditGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Edit\EditGroup\EditGroupPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Edit/EditMeasurements/EditMeasurementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Edit.EditMeasurements.EditMeasurementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Edit\EditMeasurements\EditMeasurementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Edit\EditMeasurements\EditMeasurementPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Edit/EditStudent/EditStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Edit.EditStudent.EditStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Edit\EditStudent\EditStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Edit\EditStudent\EditStudentPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Lists/MeasurementsList/MeasurementListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Lists.MeasurementsList.MeasurementListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Lists\MeasurementsList\MeasurementListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Lists\MeasurementsList\MeasurementListPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Lists/StudentList/StudentListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Lists.StudentList.StudentListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Lists\StudentList\StudentListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Lists\StudentList\StudentListPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Labs/3 course/6 sem/Students/Students/Students/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Students.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

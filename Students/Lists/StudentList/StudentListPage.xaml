@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="WhiteSmoke"
+             x:Class="Students.Lists.StudentList.StudentListPage">
+    <NavigationPage.HasBackButton>
+        <OnPlatform x:TypeArguments="x:Boolean">
+            <On Platform="Android">False</On>
+            <On Platform="iOS">False</On>
+            <On Platform="Windows">False</On>
+        </OnPlatform>
+    </NavigationPage.HasBackButton>
+    <StackLayout>
+        <Frame HasShadow="True" Margin="10" Padding="10" CornerRadius="5" BackgroundColor="#E0E0E0">
+            <Label Text="{Binding Title}" TextColor="Black" FontSize="20"/>
+        </Frame>
+        <ListView ItemsSource="{Binding Students}" HasUnevenRows="True" SelectedItem="{Binding SelectedStudent, Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame HasShadow="True" Margin="10" Padding="10" CornerRadius="5" BackgroundColor="#E0E0E0">
+                            <StackLayout Padding="10" Orientation="Vertical" Spacing="10">
+                                <StackLayout Padding="10" Orientation="Horizontal" Spacing="10">
+                                    <StackLayout Orientation="Vertical">
+                                        <Label TextColor="Black">Имя</Label>
+                                        <Label Text="{Binding Name}" TextColor="Black" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label TextColor="Black">Фамилия</Label>
+                                        <Label Text="{Binding Surname}" TextColor="Black" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label TextColor="Black">Уровень здоровья</Label>
+                                        <Label Text="{Binding Level}" TextColor="Black" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Button Text="Список измерений" Clicked="MeasurementsListButton_Clicked" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Добавить" Clicked="AddButton_Clicked" />
+                <Button Text="Удалить" Clicked="DeleteButton_Clicked" />
+                <Button Text="Редактировать" Clicked="EditButton_Clicked" />
+            </StackLayout>
+            <Button Text="Назад" Clicked="BackButton_Clicked" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
